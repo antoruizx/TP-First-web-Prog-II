@@ -219,7 +219,7 @@ body, html {
     overflow-x: visible;
 }
 
-@media (min-width: 380px) {
+@media (max-width: 980px) {
     nav ul {
         display: none; 
         flex-direction: column;
@@ -239,17 +239,18 @@ body, html {
         margin-top: 16px;
     }
 
-    img {
-        width: 100px;
-        align-items: center;
-        padding-bottom: 16px;
+    .our-products {
+        font-size: 48px;
+    }
+
+    .box h2 {
+        font-size: 40px; 
+        padding-top: 15px;
     }
 
     .box p {
-        font-size: 25px;
-        margin: auto;
-        font-size: medium;
-        text-align: center;
+        font-size: 30px; 
+        margin-top: 10px;
     }
 
 }
