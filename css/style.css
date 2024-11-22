@@ -48,8 +48,20 @@ img {
     align-items: center;
 }
 
-/* Products section*/
+@media (max-width: 980px) {
+    .size-img { 
+        width: 80%;
+        height: 30px;
+    }
 
+    header img {
+        width: 100px;
+        padding-top: 15px;
+        padding-left: 0;
+        padding-bottom: 15px;
+}
+
+/* Products section*/
 
 h1 {
     font-size: 22px;
@@ -422,8 +434,9 @@ body {
 }
 
 .valores-section {
-    padding: 100px 290px 80px;
+    padding: 100px 260px 80px;
     background-color: rgb(23, 23, 23);
+    
 }
 
 .valores-section h2 {
@@ -443,6 +456,86 @@ body {
     height: 450px;
     border-radius: 10px;
 }
+
+.mision-vision-section {
+    padding: 100px 260px 80px;
+    background-color: #f8f9fa;
+}
+
+.mision-vision-section h2 {
+    font-size: 35px;
+    color: #333;
+
+}
+
+.mision-vision-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.mision-vision-section img {
+    max-width: 100%;
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+@media (max-width: 980px) {
+    /* Historia Section */
+    .historia-section {
+        padding: 120px 20px 60px; 
+    }
+
+    .historia-section h2 {
+        font-size: 28px;
+    }
+
+    .historia-section p {
+        font-size: 16px; 
+    }
+
+    .historia-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Valores Section */
+    .valores-section {
+        padding: 80px 20px 60px; 
+    }
+
+    .valores-section h2 {
+        font-size: 28px;
+    }
+
+    .valores-section p {
+        font-size: 16px; 
+    }
+
+    .valores-section img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    /* Misión y Visión Section */
+    .mision-vision-section {
+        padding: 80px 20px 60px; 
+    }
+
+    .mision-vision-section h2 {
+        font-size: 28px; 
+    }
+
+    .mision-vision-section p {
+        font-size: 16px; 
+    }
+
+    .mision-vision-section img {
+        width: 100%; 
+        height: auto;
+    }
+}
+
 
 /* Contact section*/
 
