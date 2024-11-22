@@ -253,6 +253,13 @@ body, html {
         margin-top: 10px;
     }
 
+    
+    .historia-section img {
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+}
+
 }
 
 body, html {
@@ -376,14 +383,14 @@ body {
 }
 
 .historia-section {
-    padding: 180px 20px;
+    padding: 160px 290px 80px;
     background-color: #f8f9fa;
 }
 
 .historia-section h2 {
-    font-size: 28px;
+    font-size: 35px;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .historia-section p {
@@ -393,11 +400,13 @@ body {
 
 .historia-section img {
     max-width: 100%;
+    width: 900px;
+    height: 450px;
     border-radius: 10px;
 }
 
 .valores-section {
-    padding: 180px 20px;
+    padding: 100px 290px 80px;
     background-color: #e9ecef;
 }
 
@@ -414,5 +423,7 @@ body {
 
 .valores-section img {
     max-width: 100%;
+    width: 900px;
+    height: 450px;
     border-radius: 10px;
 }
