@@ -219,7 +219,7 @@ body, html {
     overflow-x: visible;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 380px) {
     nav ul {
         display: none; 
         flex-direction: column;
@@ -243,6 +243,13 @@ body, html {
         width: 100px;
         align-items: center;
         padding-bottom: 16px;
+    }
+
+    .box p {
+        font-size: 25px;
+        margin: auto;
+        font-size: medium;
+        text-align: center;
     }
 
 }
