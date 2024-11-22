@@ -107,7 +107,7 @@ p {
 
 footer {
     background-color: #171717;
-    color: ghostwhite;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -144,18 +144,19 @@ footer {
 }
 
 .footer-section ul li a {
-    color: ghostwhite;
+    color: white;
     text-decoration: none;
 }
 
 .footer-section p {
-    color: ghostwhite;
+    color: white;
     text-decoration: none;
 }
 
-.footer-section ul li a:hover {
+.footer-content ul li a:hover {
     color: #8dbb3d;
 }
+
 
 .footer-section.social a {
     display: inline-block;
@@ -257,7 +258,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Hace que ocupe el 100% del alto de la pantalla */
+    height: 100vh; 
     overflow: hidden;
     
 }
@@ -265,8 +266,8 @@ body, html {
 .fullscreen-link img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin distorsión */
-    cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+    object-fit: cover; 
+    cursor: pointer; 
 }
 
 body {
@@ -276,29 +277,29 @@ body {
 }
 
 .seccion-delivery {
-    background-color: #171717; /* Fondo gris oscuro */
-    min-height: 500px; /* Altura mínima de la sección */
-    width: 100vw; /* Ancho completo de la pantalla */
-    display: flex; /* Usar flexbox para alinear los elementos */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    gap: 20px; /* Espacio entre los divs */
-    padding: 20px; /* Margen interno opcional */
+    background-color: #171717;
+    min-height: 500px;
+    width: 100vw;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    padding: 20px; 
     
 }
 
 .image-delivery {
-    background-image: url('/src/img/imagen-pedidos-ya.jpg'); /* Fondo para los divs individuales */
+    background-image: url('/src/img/imagen-pedidos-ya.jpg');
     width: 800px;
     height: 400px;
-    display: flex; /* Centrar contenido dentro de los divs */
+    display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 10px; /* Bordes redondeados opcionales */
-    color: white; /* Color del texto */
-    font-family: Arial, sans-serif; /* Fuente opcional */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra opcional */
-    text-align: center; /* Centrar texto */
+    border-radius: 10px;
+    color: white; 
+    font-family: Arial, sans-serif; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .link-pedidos-ya {
@@ -307,7 +308,7 @@ body {
     align-items: center;
     width: 200px;
     height: 50px;
-    background: linear-gradient(to right, #8dbb3d, #54721e); /* Estilo degradado */
+    background: linear-gradient(to right, #8dbb3d, #54721e);
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -319,7 +320,7 @@ body {
     text-align: center;
     margin-bottom: 5s0px;
     width: 500px;
-    color: #fff; /* Texto blanco */
+    color: #fff;
 }
 
 .delivery-texto h3 {
@@ -357,7 +358,7 @@ body {
 }
 
 .link-pedidos-ya:hover {
-    transform: scale(1.05); /* Efecto de escala */
+    transform: scale(1.05);
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
 }
 
